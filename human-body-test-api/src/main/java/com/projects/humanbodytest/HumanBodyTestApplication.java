@@ -15,7 +15,6 @@ public class HumanBodyTestApplication {
 	public static void main(String[] args) throws EncryptedDocumentException, IOException {
 		
 		ExcelReader excelReader = new ExcelReader();
-		
 		ArrayList<String> questions = excelReader.readQuestions("./questions-data/database.xlsx");
 		
 		
